@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "yarn nodemon -r dotenv/config --watch \"*.ts\" --exec \"ts-node\" ./src/server.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  }
+}
