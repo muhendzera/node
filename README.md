@@ -1,2 +1,2 @@
 # node
-boiler plate for node
+boilerplate for node
